@@ -1,0 +1,15 @@
+[package]
+name = "sc2replay-autofix"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = { version = "0.21", default-features = false, features = ["default_fonts", "glow"] }
+egui = "0.21"
+walkdir = "2.0"
+anyhow = "1.0"
+dirs = "5.0"
+winreg = "0.50"
+crossbeam-channel = "0.5"
+rfd = "0.12"
+lazy_static = "1.4"
